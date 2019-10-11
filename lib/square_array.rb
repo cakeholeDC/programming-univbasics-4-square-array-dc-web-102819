@@ -3,7 +3,7 @@ def square_array(array)
   squared = []
   element = 0
   while array[element] do
-    squared << (array[element] * array[element])
+    squared << (array[element]**2)
     element += 1
   end
 end
