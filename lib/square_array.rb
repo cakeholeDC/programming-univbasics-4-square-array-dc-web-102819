@@ -5,5 +5,6 @@ def square_array(array)
   while element < array.length do
     squared << array[element] ** 2
     element += 1
+    squared
   end
 end
